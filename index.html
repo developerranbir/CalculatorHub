@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en-IN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CalculatorHub India - Free Finance, Health, Math, Business and Daily Calculators</title>
+    <meta name="description" content="Use 150+ free online calculators for EMI, home loan, SIP, GST, income tax, BMI, electricity bill, construction, education, date, math, unit conversion, vehicle, business, creator and lifestyle needs.">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="theme-color" content="#0f766e">
+    <meta name="keywords" content="EMI calculator, SIP calculator, GST calculator, income tax calculator, BMI calculator, electricity bill calculator, construction calculator, percentage calculator, unit converter, business calculator India">
+    <meta property="og:title" content="CalculatorHub India - 150+ Free Online Calculators">
+    <meta property="og:description" content="Fast, mobile-friendly calculators for finance, education, health, electrical, construction, math, business and daily life.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_IN">
+    <link rel="stylesheet" href="styles.css?v=2">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "CalculatorHub India",
+        "applicationCategory": "FinanceApplication",
+        "operatingSystem": "Any",
+        "description": "A free frontend calculator directory with calculators for finance, education, health, electrical, construction, math, unit conversion, business, creator and lifestyle needs.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="CalculatorHub India home">
+        <span class="brand-mark">CH</span>
+        <span>
+          <strong>CalculatorHub</strong>
+          <small>India</small>
+        </span>
+      </a>
+      <label class="search-wrap" for="siteSearch">
+        <span>Search</span>
+        <input id="siteSearch" type="search" placeholder="Search EMI, GST, BMI, wire size..." autocomplete="off">
+      </label>
+    </header>
+
+    <main id="top">
+      <section class="workspace">
+        <div class="intro-panel">
+          <p class="eyebrow">One frontend toolkit</p>
+          <h1>All daily calculators in one fast, searchable master page.</h1>
+          <p class="intro-copy">Choose a category, search by name, or open any calculator link below. Results update instantly and include a quick visual breakdown wherever it helps.</p>
+          <div class="stats-row" aria-label="Calculator summary">
+            <span><strong id="calculatorCount">150+</strong> calculators</span>
+            <span><strong>12</strong> categories</span>
+            <span><strong>0</strong> login required</span>
+          </div>
+        </div>
+
+        <aside class="active-tool" id="calculatorArea" tabindex="-1" aria-labelledby="activeTitle">
+          <div class="tool-heading">
+            <div>
+              <p class="eyebrow" id="activeCategory">Finance</p>
+              <h2 id="activeTitle">EMI Calculator</h2>
+            </div>
+            <a class="ghost-link" href="#directory">All tools</a>
+          </div>
+          <p id="activeDescription" class="tool-description"></p>
+          <form id="calculatorForm" class="calculator-form"></form>
+          <section class="result-panel" aria-live="polite">
+            <div id="resultSummary" class="result-summary"></div>
+            <div id="resultMetrics" class="metrics-grid"></div>
+            <canvas id="resultChart" width="640" height="280" aria-label="Result chart"></canvas>
+            <div id="resultNotes" class="result-notes"></div>
+          </section>
+        </aside>
+      </section>
+
+      <nav class="category-strip" id="categoryStrip" aria-label="Calculator categories"></nav>
+
+      <section class="directory-shell" id="directory">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Master directory</p>
+            <h2>Calculator categories and links</h2>
+          </div>
+          <p id="searchStatus">Showing all calculators</p>
+        </div>
+        <div id="calculatorDirectory" class="calculator-directory"></div>
+      </section>
+
+      <section class="seo-copy">
+        <h2>Free online calculators for India</h2>
+        <p>CalculatorHub India includes popular calculators for EMI, home loan, car loan, personal loan, SIP, fixed deposit, recurring deposit, GST, income tax, salary, BMI, calories, electricity bill, solar panel, wire size, paint, cement, bricks, tiles, age, date difference, percentage, GPA, unit conversion, mileage, ROI, invoice totals, YouTube income and more.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>CalculatorHub India is a static frontend calculator website. Financial, tax and health calculators are estimates and should be checked with a qualified professional for important decisions.</p>
+    </footer>
+
+    <script src="app.js?v=2"></script>
+  </body>
+</html>
